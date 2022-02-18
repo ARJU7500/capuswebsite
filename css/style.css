@@ -1,0 +1,199 @@
+*
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+#section1 
+{
+    background-image: url("../img/section1bg.png");
+    background-position:center;
+    height: 100vh;
+    position: relative;
+    
+}
+
+ nav 
+{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 100px;
+    line-height: 50px;
+    position:sticky;
+    top: 0px;
+    z-index: 1000;
+    /* background-color: #FF0000; */
+}
+ nav ul li
+{
+list-style: none;
+	display: inline-block;
+	margin: 0px 20px;
+}
+ nav ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+} nav ul li a:hover
+{
+    text-decoration: underline 3px solid  #FF0000 ;
+}
+.textbox
+{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+}
+.textbox h1
+{
+    color: white;
+}
+.textbox p
+{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.textbox a
+{
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.textbox a:hover
+{
+background-color: #FF0000;
+border: #FF0000;
+}
+
+/* @media only screen and (max-width :420px)  
+{
+
+} */
+
+/* section2 start */
+#section2
+{
+    padding: 100px 0px;
+    text-align: center;
+}
+#section2 .box
+{
+   margin: 50px 0px 0px 0px ;
+    padding: 30px ;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+}
+#section2 .box p
+{
+    font-size: 16px;
+    width: 300px;
+
+}
+
+/* section3 start */
+#section3 
+{
+    text-align: center;
+}
+#section3  img
+{
+    padding-top: 50px;
+}
+
+/* section4 styart */
+#section4
+{
+    padding: 100px 0px;
+    text-align: center;
+
+}
+#section4 img
+{
+    padding-top: 50px;
+}
+#section4 h4
+{
+    padding-top: 20px;
+}
+#section4 p
+{
+  font-size: 16px;
+}
+
+/* section5 start */
+#section5
+{
+padding: 50px 0px;
+}
+#section5 h1
+{
+    text-align: center;
+}
+
+#section5 .s5box
+{
+    margin: 30px 0px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+/* section 6 start */
+#section6
+{
+    padding: 50px 0px;
+    background-image: url("../img/section6bg.jpg");
+    background-position: top;
+    height: 50vh;
+    position: relative;
+}
+#section6 .s6box
+{
+   position: absolute;
+   top: 70%; 
+   left: 30%;
+}
+ .s6box h3
+{
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+.s6box a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ .s6box a:hover
+ {
+     background-color: #FF0000;
+     border: #FF0000;
+ }
+
+ /* section7 start */
+ #section7
+ {
+     padding: 80px 0px;
+     text-align: center;
+ }
+ #section7 p
+ {
+     width: 80%;
+     padding: 0px 25px;
+     text-align: center;
+ }
+
+ /* footer start */
+ .footer
+ {
+     text-align: center;
+ }

@@ -1,0 +1,40 @@
+*
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+#sectiona1 
+{
+    background-image: url("../img/aboutbg.jpg");
+    background-position:center;
+    height: 60vh;
+    position: relative;
+    
+}
+.sabox
+{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: white;
+}
+/* section2 start */
+#sectiona2
+{
+    padding: 100px 0px;
+}
+#sectiona2 a
+{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px ;
+    border: 1px solid black;
+}
+#sectiona2 a:hover
+{
+    background-color: #FF0000 ;
+    border: #FF0000 ;
+    color: white;
+}

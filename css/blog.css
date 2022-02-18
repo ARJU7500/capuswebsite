@@ -1,0 +1,56 @@
+*
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+#sectionb2
+{
+    padding: 100px 0px;
+}
+#sectionb2 h1
+{
+    padding: 10px 0px;
+}
+#sectionb2 p
+{
+    width: 90%;
+}
+.data table th
+{
+  background-color: #FF0000;
+  color: white;
+  text-align: center;
+}
+
+
+
+.comment
+{
+    /* border: 1px solid grey; */
+    width: 100%;
+     margin-top: 50px;
+    padding: 10px 0;
+}
+.comment input,textarea
+{
+    width: 70vh;
+    padding: 10px 20px;
+    margin-top: 20px;
+    outline: none;
+}
+.comment button
+{
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    margin-top: 20px ;
+    text-align: right;
+}
+.comment button:hover
+{
+    background-color: #FF0000;
+    color: white;
+    border: 1px solid #FF0000;
+}

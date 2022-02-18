@@ -1,0 +1,43 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.sabox h1
+{
+    left: 50%;
+}
+#sectionc2
+{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#sectionc3 .smessage
+{
+border: 1px soid red;
+}
+.smessage input,textarea
+{
+    width: 80vh;
+    padding: 10px;
+    outline: none;
+    margin: 10px 0px;
+}
+.smessage button
+{
+    border: 1px solid grey;
+    padding: 10px 10px;
+    background-color: transparent;
+    font-weight: 500;
+}
+.smessage button:hover
+{
+    background-color: #FF0000;
+    border:1px solid #FF0000;
+    color: white;
+}
+#sectionc3 .address p
+{
+font-size: 14px;
+}
