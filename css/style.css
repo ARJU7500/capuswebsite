@@ -6,13 +6,17 @@ box-sizing: border-box;
 }
 #section1 
 {
-    background-image: url("../img/section1bg.png");
+    background-image: linear-gradient(rgb(4,9,30,0.7), rgb(4,9,30,0.7)), url("../img/section1bg.png");
     background-position:center;
     height: 100vh;
     position: relative;
     
 }
-
+nav img
+{
+    width: 70%;
+    line-height: 50px;
+}
  nav 
 {
     display: flex;
@@ -70,11 +74,163 @@ list-style: none;
 background-color: #FF0000;
 border: #FF0000;
 }
-
-/* @media only screen and (max-width :420px)  
+nav .icon,#checkbtn
 {
+    display: none;
+}
 
-} */
+@media only screen and (max-width :420px)  
+{
+nav
+{
+    line-height: 50px;
+}
+nav
+{
+	padding: 0px 20px;
+	font-size: 20px;
+}
+nav ul
+{
+	position: absolute;
+	top: 0px;
+	background-color: #FF0000;
+	width: 50%;
+	height: 100vh;
+	left: -100%;
+	transition: all 2s;
+
+}
+nav ul li
+{
+	display: block;
+	text-align: center;
+}
+nav ul li a
+{
+	color: white;
+	font-weight: 500;
+}
+nav ul li a:hover
+{
+	text-decoration: underline;
+}
+nav .icon
+{
+display: block;
+position: absolute;
+right: 20px;
+}
+#checkbtn:checked ~ ul
+{
+left: 0px;
+}
+nav .fas
+{
+ color: #FF0000;  
+ font-size: 30px;
+ line-height: 50px;
+}
+.textbox
+{
+    top: 60%;
+}
+.textbox p
+{
+text-align: center;
+width: 90%;
+}
+
+#section7 p
+{
+width: 100%;
+}
+.footer p
+{
+font-size: small;
+}
+#section6 h3
+{
+    font-size: 18px;
+    text-align: center;
+
+}
+}
+
+/* pop form */
+.popup
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: none;
+}
+.popup form
+{
+    border: 1px solid #FF0000;
+    border-radius: 10px;
+    width: 450px;
+    height: 320px;
+    padding: 30px;
+    background-color:white; 
+    z-index: 100;
+    position: relative;
+}
+.popup input
+{
+    padding: 10px 20px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border:1px solid #FF0000;
+    border-radius: 10px;
+}
+.popup input::placeholder
+{
+    color: #FF0000;
+}
+.popup button
+{
+    color: #FF0000;
+    font-size: 16px;
+    padding: 8px 25px ;
+    border:1px solid #FF0000;
+    border-radius: 10px;
+background-color: transparent;
+}
+.popup button:hover
+{
+    background-color: #FF0000;
+    color: white;
+}
+.popup h3
+{
+    color: #FF0000;
+}
+.popup #icon
+{
+    color: #FF0000;
+    font-size: larger;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.popup h5
+{
+    color: #FF0000;
+    padding: 10px 0px;
+    text-align: center;
+}
+.popup a{
+    text-decoration: none;
+    color: #FF0000;
+}
+.popup a:hover
+{
+    text-decoration: underline;
+}
 
 /* section2 start */
 #section2
@@ -144,26 +300,33 @@ padding: 50px 0px;
     border-radius: 10px;
     background-color: antiquewhite;
 }
+#section5 .fa
+{
+    color: #FF0000;
+    font-size: 20px;
+}
 /* section 6 start */
 #section6
 {
     padding: 50px 0px;
-    background-image: url("../img/section6bg.jpg");
+    background-image: linear-gradient(rgb(4,9,30,0.7), rgb(4,9,30,0.7)), url("../img/section6bg.jpg");
     background-position: top;
-    height: 50vh;
+    height: 80vh;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 #section6 .s6box
 {
    position: absolute;
-   top: 70%; 
-   left: 30%;
+   top: 60%;
 }
  .s6box h3
 {
     font-weight: 800;
     color: white;
     margin-bottom: 20px;
+    text-align: center;
 }
 .s6box a
 {
@@ -188,8 +351,7 @@ padding: 50px 0px;
  #section7 p
  {
      width: 80%;
-     padding: 0px 25px;
-     text-align: center;
+     padding: 0px 20px;
  }
 
  /* footer start */

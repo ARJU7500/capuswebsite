@@ -15,6 +15,8 @@
 <body>
     <section id="sectiona1">
         <nav>
+            <input type="checkbox" id="checkbtn">
+    <label for="checkbtn" class="icon"><i class="fas fa-plus"></i></label>
             <a href="index.html"><img src="img/logo.png" alt=""> </a>
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -22,8 +24,21 @@
                 <li><a href="course.html">COURSE</a></li>
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#" id="login">LOGIN</a></li>
+                <li><a href="#">REGISTRATION</a></li>
             </ul>
         </nav>
+        <!-- pop form -->
+<div class="popup">
+    <form>
+        <i class="far fa-times-circle" id="icon"></i>
+        <h3> Login</h3>
+        <label><input type="email" placeholder="Example123@gmail.com"></label><br>
+        <label><input type="password" placeholder="Enter Your Password"></label><br>
+       <button href="#">Login</button>
+        <h5>New Student ? <a href="#">Register Now</a></h5>
+        </form>
+</div>
         <div class="sabox">
         <h1> Our Certificate & Online Programs For 2022</h1>
         </div>
@@ -140,5 +155,17 @@
     <div class="footer">
         <p>Copyright &copy; 2021. All rights reserved with <b>Arjun Negi</b></p>
     </div>
+    <!-- pop form -->
+<div class="popup">
+    <form>
+        <i class="far fa-times-circle" id="icon"></i>
+        <h3> Login</h3>
+        <label><input type="email" placeholder="Example123@gmail.com"></label><br>
+        <label><input type="password" placeholder="Enter Your Password"></label><br>
+       <button href="#">Login</button>
+        <h5>New Student ? <a href="#">Register Now</a></h5>
+        </form>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>

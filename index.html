@@ -13,15 +13,30 @@
 <body>
 <section id="section1">
 <nav>
-    <a href="index.html"><img src="img/logo.png" alt=""> </a>
+    <input type="checkbox" id="checkbtn">
+    <label for="checkbtn" class="icon"><i class="fas fa-plus"></i></label>
+    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
     <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="course.html">COURSE</a></li>
         <li><a href="blog.html">BLOG</a></li>
         <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="#" id="login">LOGIN</a></li>
+        <li><a href="#">REGISTRATION</a></li>
     </ul>
 </nav>
+<!-- pop form -->
+<div class="popup">
+    <form>
+        <i class="far fa-times-circle" id="icon"></i>
+        <h3> Login</h3>
+        <label><input type="email" placeholder="Example123@gmail.com"></label><br>
+        <label><input type="password" placeholder="Enter Your Password"></label><br>
+       <button href="#">Login</button>
+        <h5>New Student ? <a href="#">Register Now</a></h5>
+        </form>
+</div>
 <div class="textbox">
 <h1>Our Campus</h1>
 <center><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eius ipsum obcaecati quaerat perspiciatis illo assumenda soluta, distinctio, id, quia quod odio deleniti autem facilis dicta velit dolore nam.</p></center>
@@ -115,6 +130,7 @@
                    <div class="col-lg-8 col-md-8 col-8">
                     <h4>Mhima Negi</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eaque, fuga ad nulla, placeat molestias voluptate in non et fugit rerum accusantium ducimus.</p>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-sharp-half-stroke"></i>
                    </div>
                 </div>
 </div>
@@ -129,6 +145,7 @@
                 <div class="col-lg-8 col-md-8 col-8">
                     <h4>Virendra Singh</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eaque, fuga ad nulla, placeat molestias voluptate in non et fugit rerum accusantium ducimus.</p>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-sharp-half-stroke"></i>
                 </div>
             </div>
 </div>
@@ -149,7 +166,7 @@
 <!-- section 7 start -->
 <div id="section7">
 <h1>About Us</h1>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quibusdam, saepe enim officia, velit eligendi aliquam explicabo iure expedita alias cupiditate voluptatem optio eaque modi repudiandae dignissimos quam ipsam tenetur?</p>
+<center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quibusdam, saepe enim officia, velit eligendi aliquam explicabo iure expedita alias cupiditate voluptatem optio eaque modi repudiandae dignissimos quam ipsam tenetur?</p></center>
 <div class="icon">
     <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-facebook-messenger"></i>  <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-linkedin"></i>
 </div>
@@ -158,5 +175,6 @@
 <div class="footer">
     <p>Copyright &copy; 2021. All rights reserved with <b>Arjun Negi</b></p>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 #sectiona1 
 {
-    background-image: url("../img/aboutbg.jpg");
+    background-image: linear-gradient(rgb(4,9,30,0.7), rgb(4,9,30,0.7)),url("../img/aboutbg.jpg");
     background-position:center;
     height: 60vh;
     position: relative;

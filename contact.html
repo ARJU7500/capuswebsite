@@ -16,6 +16,8 @@
 <body>
     <section id="sectiona1">
         <nav>
+            <input type="checkbox" id="checkbtn">
+    <label for="checkbtn" class="icon"><i class="fas fa-plus"></i></label>
             <a href="index.html"><img src="img/logo.png" alt=""> </a>
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -23,14 +25,33 @@
                 <li><a href="course.html">COURSE</a></li>
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#" id="login">LOGIN</a></li>
+                <li><a href="#">REGISTRATION</a></li>
             </ul>
         </nav>
+        <!-- pop form -->
+<div class="popup">
+    <form>
+        <i class="far fa-times-circle" id="icon"></i>
+        <h3> Login</h3>
+        <label><input type="email" placeholder="Example123@gmail.com"></label><br>
+        <label><input type="password" placeholder="Enter Your Password"></label><br>
+       <button href="#">Login</button>
+        <h5>New Student ? <a href="#">Register Now</a></h5>
+        </form>
+</div>
         <div class="sabox">
         <h1> Contact</h1>
         </div>
         </section>  
     <div id="sectionc2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6882.979234805727!2d79.3153292731158!3d30.39384758140149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909d446a04002ab%3A0x38b0591929f3114c!2z4KSV4KWL4KSg4KS_4KSv4KSyIOCkuOCliOCkqCwg4KSJ4KSk4KWN4KSk4KSw4KS-4KSW4KSj4KWN4KShIDI0NjQwMQ!5e0!3m2!1shi!2sin!4v1638937361961!5m2!1shi!2sin" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       <div class="contaner">
+           <div class="row">
+               <div class="col-lg-12 col-md-12 col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6882.979234805727!2d79.3153292731158!3d30.39384758140149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909d446a04002ab%3A0x38b0591929f3114c!2z4KSV4KWL4KSg4KS_4KSv4KSyIOCkuOCliOCkqCwg4KSJ4KSk4KWN4KSk4KSw4KS-4KSW4KSj4KWN4KShIDI0NjQwMQ!5e0!3m2!1shi!2sin!4v1638937361961!5m2!1shi!2sin" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               </div>
+           </div>
+       </div>
     </div>
 
     <div id="sectionc3">
@@ -74,6 +95,6 @@
     <div class="footer">
         <p>Copyright &copy; 2021. All rights reserved with <b>Arjun Negi</b></p>
     </div>
-         
+    <script src="script.js"></script>  
 </body>
 </html>
